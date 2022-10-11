@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Limelight&family=Space+Mono&display=swap');
+  
+  
+  /* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+html{
+    scroll-behavior: smooth;
+}
+
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem ;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.main-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#coold69{
+    margin-left: 20px;
+    font-family: 'Limelight', cursive;
+}
+
+.nav--btn{
+    width: 145px;
+height: 45px;
+background: linear-gradient(180deg, #FFC555 0%, #EAA216 100%);
+border: 1px solid #DFB82F;
+box-shadow: 0px 4px 10px 4px rgba(255, 107, 0, 0.3);
+border-radius: 25px;
+color: black;
+font-weight: bold;
+}
+
+
+/* ------------------------------------------- */
+.site-banner{
+    font-family: 'Space Mono';
+    margin: auto;
+    height: 75vh;
+}
+.container2{
+    width: 80vw;
+    margin: auto;
+    margin-top: 100px;
+}
+.title-text{
+font-weight: bold;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 76px;
+}
+
+
+.banner-image{
+    width: 374px;
+height: 323px;
+
+
+box-shadow: 0px 4px 26px 4px rgba(0, 0, 0, 0.34);
+border-radius: 6px;
+}
+.psr--image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primary-button{
+    font-weight: bold;
+    padding-top: 15px;
+    color: white;
+    width: 150px;
+    background: linear-gradient(89.17deg, #0063F7 0.46%, #00A2FF 99.18%);
+border: 0.5px solid rgba(23, 5, 228, 0.82);
+}
+.secondary-button{
+    font-weight: bold;
+   
+    width: 150px;
+    
+border: 0.5px solid rgba(23, 5, 228, 0.82);
+}
+
+/* ---------------------------------- */
+
+.video2{
+    width: 539px;
+height: 304px;
+
+background: url(photo-1562408590-e32931084e23.png);
+box-shadow: 0px 0px 35px 10px rgba(82, 11, 233, 0.55);
+}
+.area-color-back{
+    height: 100vh;
+}
+
+/* -------------------------------- */
+.font-monospace{
+    font-family: 'Space Mono';
+}
+.font-primary{
+    color: black;
+    font-weight: bold;
+}
+
+
+#triangle-topleft {
+    background: #12213C;
+    width: 98vw;
+    height: 100px;
+    border-top: 100px solid white;
+    border-right: 98vw solid transparent;
+}
+
+.video--color{
+      background: #12213C;
+
+  }
+
+.intro--text{
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 74px;
+
+color: #B9B9B9;
+}
+.about--text{
+    font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 27px;
+display: flex;
+align-items: center;
+color: #C2C2C2;
+}
+
+/* ================================================= */
+.my-projects {
+   margin-top: 50px;
+}
+.my-projects h2{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 1000;
+font-size: 40px;
+line-height: 59px; 
+}
+.dash{
+  font-size: 200px;
+  width: 80vw;
+}
+
+.img-fluid a iframe{
+    border-radius: 5px;
+}
+.projects--des{
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================== */
+.skill--page{
+    width: 90vw;
+    height: 80vh;
+    background: rgba(255, 255, 255, 0.2);
+box-shadow: 0px 2px 10px 1px rgba(159, 159, 159, 0.32);
+border-radius: 13px;
+border: 1px solid black;
+}
+.skill--image{
+   margin-top: -55px;
+   margin-left: -15px;
+}
+
+
+/* ========================== */
+.area-color-back2{
+    height: 50vh;
+}
+.quote
+{
+    width: 90vw;
+    margin: auto;
+    background: rgba(230, 230, 230, 0.43) url('../img/Component_10.png');
+}
+.quoteCard
+{
+width: 800px;
+height: 200px;
+margin: auto;
+margin-top: 200px;
+padding: 20px;
+background: #EBF9FF;
+border-radius: 11px;
+}
+
+
+/* ==================================== */
+
+.last--button{
+    height: 50px;
+    width: 135px;
+    background: #F1F1F1;
+border-radius: 50px;
+font-size: 20px;
+}
+
+
+/* =================================Footer----------------- */
+Footer{
+    margin-top: 100px;
+    height: 90vh;
+    width: 100vw;
+    font-weight: bold;
+
+
+    background-image: url('/img/footer.png');
+    /* height: 500px; */
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+.footer--img{
+ margin-top: 80px;
+ overflow: hidden;
+ /* position: fixed; */
+}
+
+.links{
+    font-size: 25px;
+}
+
+.footer-text{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 15px;
+    display: flex;
+    
+}
+.footer-text li a{
+color: black;
+}
+
+.footer--address{
+    font-size: 15px;
+    line-height: 25px;
+}
+.copy-right{
+    font-family: 'Space Mono';
+    font-style: normal;
+    
+    font-weight: 600;
+    margin-top: -30px;
+    font-size: 18px;
+}
+
+
+
+/* ------------------------------------- */
+
+.spinner{
+    margin: auto;
+    transform: rotate(45deg);
+    animation: mymove 10s infinite;
+}
+  
+  @keyframes mymove {
+    50% {transform: rotate(180deg);}
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
