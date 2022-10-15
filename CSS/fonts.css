@@ -1,15 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Limelight&family=Space+Mono&display=swap');
 
 
+/* @font-face */ 
 
-@font-face {
-    font-family: 'JejuHallasan';
-    src: url('../fonts/JejuHallasan-Regular.ttf');
-} 
-
-.font-monospace{
-    font-family: 'Space Mono';
+@font-face{
+    font-family: "Roboto";
+    src: '../fonts/Roboto/Roboto-Regular.ttf';
 }
-.font-JejuHallasan{
-    font-family: 'JejuHallasan';
-}
+
