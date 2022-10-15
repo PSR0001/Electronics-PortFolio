@@ -17,20 +17,17 @@ html{
     margin: 0;
     padding: 0;
 }
+/* 
 .header_area .main-menu .navbar1 .navbar-brand{
     padding: 0 2rem 0 5rem;
 }
-/* .navbar{
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-} */
+
 .header_area .main-menu .navbar1{
     padding: 1rem 20rem ;
 }
 
 .header_area .main-menu .nav-item .nav-link{
-    font: normal bolder 15px/2px var(--roboto);
+    font: normal bolder 15px/2px var(--spacemono);
     text-transform: uppercase;
     padding: 1.7rem;
     color: var(--title-color);
@@ -53,7 +50,53 @@ html{
     display: flex;
     justify-content: space-between;
     align-items: center;
+} */
+
+
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
 }
+
+.header_area .main-menu .navbar{
+    padding: 1rem 1rem ;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px var(--roboto);
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #coold69{
     margin-left: 20px;
@@ -160,9 +203,9 @@ border: 0.5px solid rgba(23, 5, 228, 0.82);
     font-weight: bold;
 }
 #triangle-topleft {
-    width: 100vw;
-    position: absolute;
-    bottom: 8px;
+    /* width: 90vw; */
+    /* position: absolute; */
+    bottom: 0px;
     /* left: 0; */
     height: 100px;
     border-top: 100px solid transparent;
@@ -385,12 +428,12 @@ Footer{
     width: 100vw;
     font-weight: bold;
 
-
     background-image: url('/img/footer.png');
     /* height: 500px; */
     background-position: center;
     background-repeat: no-repeat; 
     background-size: cover; 
+    overflow: hidden;
 }
 .footer--img{
  margin-top: 80px;
