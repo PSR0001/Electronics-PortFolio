@@ -2,13 +2,12 @@
 
 @import url('./fonts.css');
 
-
-  
-  /* css variables */ 
+/* css variables */ 
 @import url(./partials/_variables.css);
 
 /* import global styling */ 
 @import url(./partials/_global.css);
+
 html{
     scroll-behavior: smooth;
 }
@@ -17,42 +16,10 @@ html{
     margin: 0;
     padding: 0;
 }
-/* 
-.header_area .main-menu .navbar1 .navbar-brand{
-    padding: 0 2rem 0 5rem;
+
+.header_area{
+    position: fixed;
 }
-
-.header_area .main-menu .navbar1{
-    padding: 1rem 20rem ;
-}
-
-.header_area .main-menu .nav-item .nav-link{
-    font: normal bolder 15px/2px var(--spacemono);
-    text-transform: uppercase;
-    padding: 1.7rem;
-    color: var(--title-color);
-}
-
-.header_area .main-menu .navbar-nav .active a{
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-
-.header_area .main-menu .navbar-nav a:hover{
-    background: var(--gradient-color);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-}
-.main-menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
-
-
 
 .header_area .main-menu .navbar .navbar-brand{
     padding: 0 2rem 0 5rem;
@@ -83,21 +50,6 @@ html{
     background-clip: text;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #coold69{
     margin-left: 20px;
     font-family: 'Limelight', cursive;
@@ -105,20 +57,23 @@ html{
 
 .nav--btn{
     width: 145px;
-height: 45px;
-background: linear-gradient(180deg, #FFC555 0%, #EAA216 100%);
-border: 1px solid #DFB82F;
-box-shadow: 0px 4px 10px 4px rgba(255, 107, 0, 0.3);
-border-radius: 25px;
-color: black;
-font-weight: bold;
+    height: 45px;
+    background: linear-gradient(180deg, #FFC555 0%, #EAA216 100%);
+    border: 1px solid #DFB82F;
+    box-shadow: 0px 4px 10px 4px rgba(255, 107, 0, 0.3);
+    border-radius: 25px;
+    color: black;
+    font-weight: bold;
 }
-
 
 #toggle{
     border-radius: "none";
     box-shadow: none;
 }
+
+
+
+
 
 
 
@@ -130,18 +85,20 @@ font-weight: bold;
     margin: auto;
     height: 75vh;
 }
+
 .container2{
     width: 80vw;
     margin: auto;
     margin-top: 100px;
 }
+
 .title-text{
-font-weight: bold;
-font-family: 'Space Mono';
-font-style: normal;
-font-weight: 700;
-font-size: 60px;
-line-height: 76px;
+    font-weight: bold;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 76px;
 }
 
 .banner-image{
@@ -150,6 +107,7 @@ line-height: 76px;
     box-shadow: 0px 4px 26px 4px rgba(0, 0, 0, 0.34);
     border-radius: 6px;
 }
+
 .psr--image{
     display: flex;
     justify-content: center;
@@ -162,8 +120,9 @@ line-height: 76px;
     color: white;
     width: 150px;
     background: linear-gradient(89.17deg, #0063F7 0.46%, #00A2FF 99.18%);
-border: 0.5px solid rgba(23, 5, 228, 0.82);
+    border: 0.5px solid rgba(23, 5, 228, 0.82);
 }
+
 .secondary-button{
     font-weight: bold;
     margin-left: 15px;
@@ -180,11 +139,7 @@ border: 0.5px solid rgba(23, 5, 228, 0.82);
    }
 }
 
-
-
-
-
-/* ---------------------------------- */
+/* -------------------------- */
 
 .area-color-back{
     height: 100vh;
@@ -195,18 +150,17 @@ border: 0.5px solid rgba(23, 5, 228, 0.82);
     height: 304px;
     box-shadow: 0px 0px 35px 10px rgba(82, 11, 233, 0.55);
 }
+
 .font-monospace{
     font-family: 'Space Mono';
 }
+
 .font-primary{
     color: black;
     font-weight: bold;
 }
 #triangle-topleft {
-    /* width: 90vw; */
-    /* position: absolute; */
     bottom: 0px;
-    /* left: 0; */
     height: 100px;
     border-top: 100px solid transparent;
     border-right: 100vw solid #12213C;
@@ -219,22 +173,21 @@ border: 0.5px solid rgba(23, 5, 228, 0.82);
 
 .intro--text{
     font-family: 'Space Mono';
-font-style: normal;
-font-weight: 400;
-font-size: 50px;
-line-height: 74px;
-
-color: #B9B9B9;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 74px;
+    color: #B9B9B9;
 }
 .about--text{
     font-family: 'Space Mono';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 27px;
-display: flex;
-align-items: center;
-color: #C2C2C2;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #C2C2C2;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -245,10 +198,6 @@ color: #C2C2C2;
         padding-left: 50px;
         padding-right: 20px;
     }
-    /* .electronics-video{
-        margin-top: 20px;
-    } */
-    
   }
 @media only screen and (max-width: 600px) {
     .electronics-video{
@@ -274,13 +223,6 @@ color: #C2C2C2;
     }
 }
 
-
-
-
-
-
-
-
 /* ================================================= */
 .my-projects {
    margin-top: 50px;
@@ -303,15 +245,6 @@ line-height: 59px;
 .projects--des{
     padding: 5px;
 }
-
-
-
-
-
-
-
-
-
 
 
 /* ============================================== */
