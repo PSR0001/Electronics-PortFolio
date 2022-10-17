@@ -6,6 +6,10 @@
     font-family: 'JejuHallasan';
     src: url('../fonts/JejuHallasan-Regular.ttf');
 } 
+@font-face {
+    font-family: 'Space Mono';
+    src: url('../fonts/space-mono.regular.ttf');
+} 
 
 
 .font-JejuHallasan{
