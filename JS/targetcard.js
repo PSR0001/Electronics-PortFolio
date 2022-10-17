@@ -6,7 +6,7 @@ function cardbase(description){
     return `
 <!-- card start -->
 <div class="col-lg-10">
-    <div style="background-color:#faf8ff;" class=" d-flex justify-content-between  border-custom rounded p-3 my-3">
+    <div style="background-color:#faf8ff;" class=" d-flex  border-custom rounded p-3 my-3" style="flex-direction: column;">
         <div class="icon pr-2"><i class="icon-frame far fa-credit-card bg-dark text-light"></i>
         </div>
         <div class="content">
@@ -16,6 +16,14 @@ function cardbase(description){
             <div class=" ">
                 <p>${description}</p>
             </div>
+        </div>
+        <div class="border-custom-top text-center p-3 info-ex m-2 social-link">
+            <!-- <br> -->
+            <i class="fab fa-facebook-f "></i>
+            <i class="fab fa-linkedin-in "></i>
+            <i class="fab fa-github  "></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube "></i>
         </div>
     </div>
 </div>

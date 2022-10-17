@@ -2,9 +2,14 @@
 
 /* @font-face */ 
 
-@font-face{
-    font-family: "Roboto";
-    src: '../fonts/Roboto/Roboto-Regular.ttf';
+@font-face {
+    font-family: 'JejuHallasan';
+    src: url('../fonts/JejuHallasan-Regular.ttf');
+} 
+
+
+.font-JejuHallasan{
+    font-family: 'JejuHallasan';
 }
 
 .font-monospace{
