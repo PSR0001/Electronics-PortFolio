@@ -5,7 +5,12 @@
 .title-text{
     font: normal bold 40px/ 72px var(--roboto);
 }
-
+.title-update{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 76px; 
+}
 .text-uppercase{
     text-transform: uppercase;
 }
@@ -88,4 +93,21 @@ button:hover
     box-shadow: var(--box-shadow);
     z-index: 999;
     transition: background 1s ease;
+}
+
+.border-custom{
+    border-right: 1px solid #dee2e6;
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+    border-left: 5px solid #1B9CFC;
+}
+.border-custom-top{
+    border-top: 4px solid #1B9CFC;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.border-custom-top-green{
+    border-top: 4px solid #04aa6d;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }

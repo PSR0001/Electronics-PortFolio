@@ -7,3 +7,6 @@
     src: '../fonts/Roboto/Roboto-Regular.ttf';
 }
 
+.font-monospace{
+    font-family: 'Space Mono';
+}
